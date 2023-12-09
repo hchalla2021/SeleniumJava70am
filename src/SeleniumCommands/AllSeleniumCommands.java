@@ -23,7 +23,7 @@ public class AllSeleniumCommands {
         //String getallpageifo = driver.getPageSource();
         //System.out.println(getallpageifo);
         String gettext = driver.findElement(By.xpath("//*[@id=\"top\"]/div/h1")).getText();
-        System.out.println(gettext);
+        System.out.println("text is " +gettext);
         //driver.findElement(By.xpath("//*[@id=\"btn-make-appointment\"]")).click();
         By mkeapt = By.xpath("//*[@id=\"btn-make-appointment\"]");
         ApplicationUtilities.clickelement(driver, mkeapt);
