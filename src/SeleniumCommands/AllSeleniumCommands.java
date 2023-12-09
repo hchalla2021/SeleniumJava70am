@@ -33,7 +33,7 @@ public class AllSeleniumCommands {
         driver.findElement(By.xpath("//*[@id=\"txt-password\"]")).sendKeys("ThisIsNotAPassword");
         driver.findElement(By.xpath("//*[@id=\"btn-login\"]")).click();
         //driver.quit();
-        //driver.close();
+         driver.close();
 
     }
 
